@@ -1,17 +1,17 @@
-# Image Inpainting
+# Awesome Image Inpainting
+
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)  ![GitHub stars](https://img.shields.io/github/stars/Xiefan-Guo/Awesome-Image-Inpainting?color=green)  ![GitHub forks](https://img.shields.io/github/forks/Xiefan-Guo/Awesome-Image-Inpainting?color=9cf)
+
+A curated list of ***Image Inpainting*** papers and resources.
+
+
 
 ## Contents
- - [Non-learning Inpainting](#non-learning-inpainting)
- - [Learning Inpainting](#learning-inpainting)
-    - [2015](#2015)
-    - [2016](#2016)
-    - [2017](#2017)
-    - [2018](#2018)
-    - [2019](#2019)
-    - [2020](#2020)
-    - [2021](#2021)
 
-### Non-learning Inpainting
+ - [Traditional Methods](#traditional-methods)
+ - [Deep Generative Methods](#deep-generative-methods)
+
+## Traditional Methods
 
 * Image inpainting (SIGGRAPH 2000). _Bertalmio, M., Sapiro, G., Caselles, V., & Ballester, C._ [[Paper]](https://www.cse.unr.edu/~bebis/CS474/StudentPaperPresentations/imageinpainting.pdf)
 * Simultaneous Structure and Texture Image Inpainting (TIP 2003). _Bertalmio, M., Vese, L., Sapiro, G., & Osher, S._ [[Paper]](https://www.math.ucla.edu/~lvese/PAPERS/01217265.pdf)
@@ -20,25 +20,14 @@
 * PatchMatch: A Randomized Correspondence Algorithm for Structural Image Editing (ToG 2009). _Connelly Barnes, Eli Shechtman, Adam Finkelstein, Dan B Goldman_ [[Paper]](https://gfx.cs.princeton.edu/pubs/Barnes_2009_PAR/patchmatch.pdf)[[Project]](https://gfx.cs.princeton.edu/pubs/Barnes_2009_PAR/)
 * Image Completion using Planar Structure Guidance (ToG 2014). _Huang, J. B., Kang, S. B., Ahuja, N., & Kopf, J._ [[Paper]](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/01/structure_completion_small.pdf)[[Code]](https://github.com/jbhuang0604/StructCompletion)[[Project]](https://sites.google.com/site/jbhuang0604/publications/struct_completion)
 
-### Learning Inpainting
-
-#### 2015
+## Deep Generative Methods
 
 * Shepard Convolutional Neural Networks (NIPS 2015). _Ren, J. S., Xu, L., Yan, Q., & Sun, W._ [[Paper]](https://papers.nips.cc/paper/5774-shepard-convolutional-neural-networks.pdf)[[Code]](https://github.com/jimmy-ren/vcnn_double-bladed/tree/master/applications/Shepard_CNN)
-
-#### 2016
-
 * Context Encoders: Feature Learning by Inpainting (CVPR 2016). _Pathak, D., Krahenbuhl, P., Donahue, J., Darrell, T., & Efros, A. A._ [[Paper]](https://arxiv.org/abs/1604.07379)[[Code]](https://github.com/pathak22/context-encoder)
-
-#### 2017
-
 * Globally and Locally Consistent Image Completion (ToG 2017). _Iizuka, S., Simo-Serra, E., & Ishikawa, H._ [[Paper]](http://iizuka.cs.tsukuba.ac.jp/projects/completion/data/completion_sig2017.pdf)[[Code]](https://github.com/satoshiiizuka/siggraph2017_inpainting)[[Project]](http://iizuka.cs.tsukuba.ac.jp/projects/completion/en/)
 * High-Resolution Image Inpainting using Multi-Scale Neural Patch Synthesis (CVPR 2017). _Yang, C., Lu, X., Lin, Z., Shechtman, E., Wang, O., & Li, H._ [[Paper]](https://arxiv.org/abs/1611.09969)[[Code]](https://github.com/leehomyc/Faster-High-Res-Neural-Inpainting)
 * Generative Face Completion (CVPR 2017). _Li, Y., Liu, S., Yang, J., & Yang, M. H._ [[Paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Li_Generative_Face_Completion_CVPR_2017_paper.pdf)[[Code]](https://github.com/Yijunmaverick/GenerativeFaceCompletion)
 * Semantic Image Inpainting with Deep Generative Models (CVPR 2017). _Yeh, R. A., Chen, C., Yian Lim, T., Schwing, A. G., Hasegawa-Johnson, M., & Do, M. N._ [[Paper]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Yeh_Semantic_Image_Inpainting_CVPR_2017_paper.pdf)[[Code]](https://github.com/moodoki/semantic_image_inpainting)[[Project]](http://www.isle.illinois.edu/~yeh17/projects/semantic_inpaint/index.html)
-
-#### 2018
-
 * Generative Image Inpainting with Contextual Attention (CVPR 2018). _Yu, J., Lin, Z., Yang, J., Shen, X., Lu, X., & Huang, T. S._ [[Paper]](https://arxiv.org/abs/1801.07892)[[Code]](https://github.com/JiahuiYu/generative_inpainting)[[Project]](http://jiahuiyu.com/deepfill/)
 * Natural and Effective Obfuscation by Head Inpainting (CVPR 2018). _Sun Qianru et al._ [[Paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Sun_Natural_and_Effective_CVPR_2018_paper.pdf)
 * Eye In-Painting with Exemplar Generative Adversarial Networks (CVPR 2018). _Dolhansky, B., & Canton Ferrer, C._ [[Paper]](http://openaccess.thecvf.com/content_cvpr_2018/papers/Dolhansky_Eye_In-Painting_With_CVPR_2018_paper.pdf)[[Code]](https://github.com/bdol/exemplar_gans)[[Project]](https://bdol.github.io/exemplar_gans/)
@@ -54,9 +43,6 @@
 * Face Completion with Semantic Knowledge and Collaborative Adversarial Learning (ACCV 2018). _Liao, H., Funka-Lea, G., Zheng, Y., Luo, J., & Zhou, S. K._ [[Paper]](https://arxiv.org/pdf/1812.03252.pdf)
 * Edge-Aware Context Encoder for Image Inpainting (ICASPP 2018). _Liao, L., Hu, R., Xiao, J., & Wang, Z._ [[Paper]](http://150.162.46.34:8080/icassp2018/ICASSP18_USB/pdfs/0003156.pdf)
 * FaceShop: Deep Sketch-based Face Image Editing (ToG 2018). _Portenier, T., Hu, Q., Szabó, A., Bigdeli, S. A., Favaro, P., & Zwicker, M._ [[Paper]](https://arxiv.org/abs/1804.08972)
-
-#### 2019
-
 * Pluralistic Image Completion (CVPR 2019). _Zheng, C., Cham, T. J., & Cai, J._ [[Paper]](https://arxiv.org/abs/1903.04227)[[Code]](https://github.com/lyndonzheng/Pluralistic-Inpainting)[[Project]](http://www.chuanxiaz.com/publication/pluralistic/)
 * Learning Pyramid-Context Encoder Network for High-Quality Image Inpainting (CVPR 2019). _Zeng, Y., Fu, J., Chao, H., & Guo, B._ [[Paper]](https://arxiv.org/abs/1904.07475)[[Code]](https://github.com/researchmm/PEN-Net-for-Inpainting)
 * Foreground-aware Image Inpainting (CVPR 2019). _Xiong, W., Lin, Z., Yang, J., Lu, X., Barnes, C., & Luo, J._ [[Paper]](https://arxiv.org/abs/1901.05945)
@@ -76,9 +62,6 @@
 * Deep Fusion Network for Image Completion (MM 2019). _Xin Hong, Pengfei Xiong, Renhe Ji, Haoqiang Fan_ [[Paper]](https://arxiv.org/abs/1904.08060)[[Code]](https://github.com/hughplay/DFNet)
 * GAIN: Gradient Augmented Inpainting Network for Irregular Holes (MM 2019). _Jianfu Zhang, Li Niu, Dexin Yang, Liwei Kang, Yaoyi Li, Weijie Zhao, Liqing Zhang_ [[Paper]](https://dl.acm.org/doi/10.1145/3343031.3350912)
 * Single-shot Semantic Image Inpainting with Densely Connected Generative Networks (MM 2019). _Ling Shen, Richang Hong, Haoran Zhang, Hanwang Zhang, Meng Wang_ [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3343031.3350903)
-
-#### 2020
-
 * Region Normalization for Image Inpainting (AAAI 2020). _Tao Yu, Zongyu Guo, Xin Jin, Shilin Wu, Zhibo Chen, Weiping Li, Zhizheng Zhang, Sen Liu_ [[Paper]](https://arxiv.org/abs/1911.10375)[[Code]](https://github.com/geekyutao/RN)
 * Learning to Incorporate Structure Knowledge for Image Inpainting (AAAI 2020). _Jie Yang, Zhiquan Qi, Yong Shi_ [[Paper]](https://arxiv.org/abs/2002.04170)[[Code]](https://github.com/YoungGod/sturcture-inpainting)
 * Prior Guided GAN Based Semantic Inpainting (CVPR 2020). _Avisek Lahiri, Arnav Kumar Jain, Sanskar Agrawal, Pabitra Mitra, Prabir Kumar Biswas_ [[Paper]](http://openaccess.thecvf.com/content_CVPR_2020/html/Lahiri_Prior_Guided_GAN_Based_Semantic_Inpainting_CVPR_2020_paper.html)
@@ -92,9 +75,6 @@
 * VCNet: A Robust Approach to Blind Image Inpainting (ECCV 2020). _Yi Wang, Ying-Cong Chen, Xin Tao, Jiaya Jia_ [[Paper]](https://arxiv.org/abs/2003.06816)
 * Guidance and Evaluation: Semantic-Aware Image Inpainting for Mixed Scenes (ECCV 2020). _Liang Liao, Jing Xiao, Zheng Wang, Chia-wen Lin, Shin'ichi Satoh_ [[Paper]](https://arxiv.org/abs/2003.06877)
 * High-Resolution Image Inpainting with Iterative Confidence Feedback and Guided Upsampling (ECCV 2020). _Yu Zeng, Zhe Lin, Jimei Yang, Jianming Zhang, Eli Shechtman, Huchuan Lu_ [[Paper]](https://arxiv.org/abs/2005.11742)[[Project]](https://zengxianyu.github.io/iic/)
-
-#### 2021
-
 * Hyperrealistic Image Inpainting with Hypergraph (WACV 2021). _Gourav Wadhwa, Abhinav Dhall, Subrahmanyam Murala, Usman Tariq_ [[Paper]](https://openaccess.thecvf.com/content/WACV2021/papers/Wadhwa_Hyperrealistic_Image_Inpainting_With_Hypergraphs_WACV_2021_paper.pdf) [[Code]](https://github.com/GouravWadhwa/Hypergraphs-Image-Inpainting)
 * Multi-Level Generative Chaotic Recurrent Network for Image Inpainting (WACV 2021). _Cong Chen, Amos Abbott, Daniel Stilwell_ [[Paper]](https://openaccess.thecvf.com/content/WACV2021/papers/Chen_Multi-Level_Generative_Chaotic_Recurrent_Network_for_Image_Inpainting_WACV_2021_paper.pdf)
 * R-MNet: A Perceptual Adversarial Network for Image Inpainting (WACV 2021). _Jireh Jam, Connah Kendrick, Vincent Drouard, Kevin Walker, Gee-Sern Hsu, Moi Hoon Yap_ [[Paper]](https://openaccess.thecvf.com/content/WACV2021/papers/Jam_R-MNet_A_Perceptual_Adversarial_Network_for_Image_Inpainting_WACV_2021_paper.pdf) [[Code]](https://github.com/Jireh-Jam/R-MNet-Inpainting-keras)
@@ -113,3 +93,4 @@
 * Image Inpainting via Conditional Texture and Structure Dual Generation (ICCV 2021). _Xiefan Guo, Hongyu Yang, Di Huang_ [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Guo_Image_Inpainting_via_Conditional_Texture_and_Structure_Dual_Generation_ICCV_2021_paper.pdf) [[Code]](https://github.com/Xiefan-Guo/CTSDG)
 * High-Fidelity Pluralistic Image Completion With Transformers (ICCV 2021). _Ziyu Wan, Jingbo Zhang, Dongdong Chen, Jing Liao_ [[Paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Wan_High-Fidelity_Pluralistic_Image_Completion_With_Transformers_ICCV_2021_paper.pdf) [[Project]](http://raywzy.com/ICT) [[Code]](https://github.com/raywzy/ICT)
 * Resolution-robust Large Mask Inpainting with Fourier Convolutions (WACV 2022). _Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin, Anastasia Remizova, Arsenii Ashukha, Aleksei Silvestrov, Naejin Kong, Harshith Goka, Kiwoong Park, Victor Lempitsky_ [[Paper]](https://arxiv.org/pdf/2109.07161.pdf) [[Project]](https://saic-mdal.github.io/lama-project/) [[Code]](https://github.com/saic-mdal/lama)
+
